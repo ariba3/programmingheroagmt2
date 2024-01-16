@@ -8,9 +8,7 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-/* .header{
-  padding-left: 30px;
-} */
+
 .logo{
   padding: 10px 0px 0px 90px;
   display: flex;
@@ -25,7 +23,7 @@ body{
   color: #FF5400;;
 }
 .logo .imglogo{
-  width: 70px; /* Adjust the width as needed */
+  width: 70px; 
   height: auto;
   margin-right: 10px;
 }
@@ -68,10 +66,9 @@ body{
     margin: 0 90px;
 }
 .imgbanner{
-  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(./Images/Grou13.png);
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(./Grou13.png);
   background-size: cover;
   max-width: 100%;
-  /* width: 1370px; */
   height: 510px;
  
   border-radius: 16px;
@@ -179,7 +176,7 @@ body{
 }
 
 .sect-plan-img{
-  background: url(./Images/Rectangle4.png);
+  background: url(./Rectangle4.png);
   background-size:cover;
   background-repeat: no-repeat;
   width: 550px;
@@ -288,7 +285,7 @@ body{
   
 }
 #item-0 {
-  background: url(./Images/Rectangle5.png);
+  background: url(./Rectangle5.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -298,7 +295,7 @@ body{
   
 }
 #item-1 {
-  background: url(./Images/Rectangle8.png);
+  background: url(./Rectangle8.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -307,7 +304,7 @@ body{
   border-radius: 8px;
 }
 #item-2 {
-  background: url(./Images/Rectangle6.png);
+  background: url(./Rectangle6.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -316,7 +313,7 @@ body{
   border-radius: 8px;
 }
 #item-3 {
-  background: url(./Images/Rectangle7.png);
+  background: url(./Rectangle7.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -325,7 +322,7 @@ body{
   border-radius: 8px;
 }
 #item-4 {
-  background: url(./Images/Rectangle9.png);
+  background: url(./Rectangle9.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -334,7 +331,7 @@ body{
   border-radius: 8px;
 }
 #item-5 {
-  background: url(./Images/Rectangle10.png);
+  background: url(./Rectangle10.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -343,7 +340,7 @@ body{
   border-radius: 8px;
 }
 #item-6 {
-  background: url(./Images/Rectangle11.png);
+  background: url(./Rectangle11.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -394,13 +391,13 @@ line-height: normal;
   text-align: justify;
 }
 .whyimg{
-  background: url(./Images/hotel1.png);
+  background: url(./hotel1.png);
   width: 5rem;
   height: 5rem;
   background-repeat: no-repeat;
 }
 .whyimg2{
-  background: url(./Images/map1.png);
+  background: url(./map1.png);
   width: 5rem;
   height: 5rem;
   background-repeat: no-repeat;
@@ -420,7 +417,7 @@ line-height: normal;
   margin-top: 0;
 }
 .whyimg3{
-  background: url(./Images/pricetag1.png);
+  background: url(./pricetag1.png);
   width: 5rem;
   height: 5rem;
   background-repeat: no-repeat;
@@ -443,7 +440,7 @@ font-weight: 800;
 }
 
 .dealsimg{
-  background: url(./Images/Group39.png);
+  background: url(./Group39.png);
   width: 100%;
   /* max-width: 1170px; */
   background-size: cover;
@@ -453,7 +450,6 @@ font-weight: 800;
   /* margin-left: 50px; */
   border-radius: 16px;
   background-repeat:no-repeat ;
-  /* position: relative; */
   display: flex;
   justify-content: end;
   align-items: center;
@@ -522,18 +518,15 @@ font-weight: 900;
 }
 /* 2nd img */
 .dealsimg2{
-  background: url(./Images/Group40.png);
+  background: url(./Group40.png);
   width: 100%;
   /* max-width: 1170px; */
   background-size: cover;
   max-width: 100%;
   /* width: 1370px; */
   height: 500px;
-  
-  /* margin-left: 50px; */
   border-radius: 16px;
   background-repeat:no-repeat ;
-  /* position: relative; */
   display: flex;
   justify-content: start;
   align-items: center;
@@ -561,7 +554,7 @@ font-weight: 900;
 }
 
 .sect-plan-img2{
-  background: url(./Images/Group40089.png);
+  background: url(./Group40089.png);
   background-size:cover;
   background-repeat: no-repeat;
   width: 650px;
@@ -632,7 +625,7 @@ font-weight: 900;
   
 }
 .sect-plan-img3{
-  background: url(./Images/Rectangle81.png);
+  background: url(./Rectangle81.png);
   background-size:cover;
   background-repeat: no-repeat;
   width: 750px;
@@ -644,7 +637,7 @@ font-weight: 900;
 }
 
 .sect2ndimgplan{
-  background: url(./Images/Group40069.png);
+  background: url(./Group40069.png);
   width: 325px;
   height: 210px;
   background-size: cover;
@@ -895,10 +888,7 @@ margin-bottom: 100px;
   padding-left: 24px;
   padding-right: 24px;
 }
-  .dealsicons {
-    /* flex-direction:row; */
-    /* gap: 55px; */
-  }
+
   .dealsimg, .dealsimg2 {
     width: 100%;
     height: 100%;
@@ -923,12 +913,10 @@ margin-bottom: 100px;
   .sect-plan-img2{
     
     width: 100%; 
-    height:100%;/* Make the image take up 100% of the container width */
+    height:100%;
     background-size: cover;
     margin-left: 0;
-    /* margin-left: 10px; */
-     /* Remove left margin for better responsiveness */
-    /* border-radius: 15px; */
+   
   }
   .sect-vido h3{
     margin-left: 0;
@@ -937,19 +925,10 @@ margin-bottom: 100px;
     
     width: 100%; 
     margin-left: 0;
-    /* height:100%; */
-    /* Make the image take up 100% of the container width */
-    /* background-size: cover;
-    */
-    /* margin-left: 10px; */
-     /* Remove left margin for better responsiveness */
-    /* border-radius: 15px; */
   }
 
   .secform button{
     margin-left: 24px; 
-    /* margin-right: 200px;
-    margin-left: 24px; */
     margin-bottom: 16px;
     margin-top: 1px;
   }
